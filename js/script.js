@@ -11,7 +11,7 @@ function dias() {
     do {
         var diaSemana = prompt("¿Qué día es hoy?");
         if (diaSemana == null) {
-            alert('Salió del ejercicio.')
+            alert('Salió del ejercicio.');
             console.log("Salió.");
         } else {
             switch (diaSemana) {
@@ -57,7 +57,7 @@ function bucle() {
         document.write("El número es: " + i + "<br>");
     }
     //muestra boton para salir y volver a mostrar la pagina inicial
-    document.write("<input type='button' value='Salir del ejercicio' onclick='window.history.go(0);'>")
+    document.write("<input type='button' value='Salir del ejercicio' onclick='window.history.go(0);'>");
 }
 
 //bucle para que muestre HOLA MUNDO la cantidad de veces que el usuario quiera
@@ -72,7 +72,7 @@ function hola_mundo() {
         var veces = prompt("¿Cuantas veces quiere que aparezca HOLA MUNDO en pantalla?");
         //pregunta si cancela
         if (veces == null) {
-            alert('Salió del ejercicio.')
+            alert('Salió del ejercicio.');
             console.log("Salió.");
         }
         //pregunta si ingreso un numero mayor a 0
@@ -83,7 +83,7 @@ function hola_mundo() {
             }
             document.write("Se mostró " + i + " veces.<br>");
             //muestra boton para salir y volver a mostrar la pagina inicial
-            document.write("<input type='button' value='Salir del ejercicio' onclick='window.history.go(0);'>")
+            document.write("<input type='button' value='Salir del ejercicio' onclick='window.history.go(0);'>");
         }
         //muestra mensaje de valor inválido
         else {
