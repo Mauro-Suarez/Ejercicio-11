@@ -1,0 +1,16 @@
+/* estilo de la imagen de fondo en el body*/
+body {
+    background-image: url('../img/fondo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 -7%;
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo de las imagenes insertadas en el div*/
+.imagen {
+    float: right;
+    margin-top: 1em;
+    visibility: hidden;
+}
